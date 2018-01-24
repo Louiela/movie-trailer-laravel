@@ -21,13 +21,13 @@
 </head>
 <body>
 <!--preloading-->
-<!-- <div id="preloader">
+<div id="preloader">
     <img class="logo" src="images/logo1.png" alt="">
     <div id="status">
         <span></span>
         <span></span>
     </div>
-</div> -->
+</div>
 <!--end of preloading-->
 <!--login form popup-->
 <div class="login-wrapper" id="login-content">
@@ -272,5 +272,4 @@
 <script src="http://127.0.0.1:8000/js/custom.js"></script>
 </body>
 
-<!-- Mirrored from haintheme.com/demo/html/bustter/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jul 2017 03:31:39 GMT -->
 </html>

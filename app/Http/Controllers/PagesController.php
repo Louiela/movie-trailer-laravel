@@ -92,13 +92,13 @@ class PagesController extends Controller
 
 		return view('blade.home')
 			->with(array(
-				'baseurl'	=>	url('http://127.0.0.1:8000'),
+				'baseurl'		=>	url('http://127.0.0.1:8000'),
 				'm_upcoming'	=>	json_encode(json_decode($m_upcoming)->results),
-				'm_popular'	=>	json_encode($json_popular),
+				'm_popular'		=>	json_encode($json_popular),
 				'm_top_rated'	=>	json_encode(json_decode($m_top_rated)->results),
 				'm_now_playing'	=>	json_encode(json_decode($m_now_playing)->results),
-				't_airing_today'	=>	json_encode(json_decode($t_airing_today)->results),
-				't_popular'	=>	json_encode(json_decode($t_popular)->results),
+				't_airing_today'=>	json_encode(json_decode($t_airing_today)->results),
+				't_popular'		=>	json_encode(json_decode($t_popular)->results),
 				't_top_rated'	=>	json_encode(json_decode($t_top_rated)->results),
 				'movie_video'	=>	json_encode($movie_video),
 				'celebrities'	=>	json_encode(json_decode($celebrities)->results)

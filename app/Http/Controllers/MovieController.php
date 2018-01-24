@@ -28,14 +28,14 @@ class MovieController extends Controller
 			]
 		])->getBody();
 
-		/** Get images videos*/
+		/** Get images */
 		$m_images = $client->get('https://api.themoviedb.org/3/movie/'.Request::segment(2).'/images', [
 			'form_params'	=> [
 				'api_key'	=> 'c4bc072c5243b580f3d5f839cdce12ed'
 			]
 		])->getBody();
 
-		/** Get images videos*/
+		/** Get reviews */
 		$m_reviews = $client->get('https://api.themoviedb.org/3/movie/'.Request::segment(2).'/reviews', [
 			'form_params'	=> [
 				'api_key'	=> 'c4bc072c5243b580f3d5f839cdce12ed'
